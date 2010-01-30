@@ -24,8 +24,9 @@ Sami Khan
 What I needed to do to get this to work:
 
 * Install Twisted
+* Install Zope Interfaces
 * Install pyOpenSSL
-* Install web2 from Twisted:
+* Install web2 from Twisted: (either from svn or for the Web2 package)
 	svn co svn://svn.twistedmatrix.com/svn/Twisted/trunk Twisted
 * Move web2 into twisted
 * Make salted hash password (salt is the last 2 characters of the password)
